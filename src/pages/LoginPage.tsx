@@ -6,7 +6,7 @@ import { auth, db } from "../firebase/firebase";
 import { UserData } from "../types/types";
 import { Link, useNavigate } from "react-router";
 
-export default function AuthPage() {
+export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [signup, setSignup] = useState(false);
